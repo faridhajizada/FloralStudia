@@ -19,13 +19,13 @@ const ClientHome = () => {
     <>
       <Slider />
       <LocalFlorist />
-      <NewArrival />
-      <GalleryArea />
+      {/* <NewArrival /> */}
+      {/* <GalleryArea /> */}
       <SwiperCards />
-      <VideoArea />
-      <WatchOfChoice />
+      {/* <VideoArea /> */}
+      {/* <WatchOfChoice /> */}
       <PopularProducts />
-      <ShopMethod />
+      {/* <ShopMethod /> */}
       <OurTeam />
       <OurClients />
       <WhereToFind />
