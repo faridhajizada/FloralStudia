@@ -3,7 +3,10 @@
     {
       "id": "1",
       "username": "testuser1",
-      "favorites": ["5", "2"],
+      "favorites": [
+        "5",
+        "2"
+      ],
       "basket": [
         {
           "productId": "1",
@@ -41,48 +44,8 @@
   ],
   "products": [
     {
-      "id": "1",
-      "title": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
-      "price": 610,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
-      "category_id": "2",
-      "discount": 0,
-      "status": "",
-      "rating": 4
-    },
-    {
-      "id": "2",
-      "title": "Blue Yeti USB Microphone Blackout Edition",
-      "price": 120,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
-      "category_id": "2",
-      "discount": 15,
-      "status": "",
-      "rating": 2
-    },
-    {
-      "id": "3",
-      "title": "Pryma Headphones, Rose Gold & Grey",
-      "price": 180,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
-      "category_id": "2",
-      "discount": 35,
-      "status": "New",
-      "rating": 5
-    },
-    {
-      "id": "4",
-      "title": "NewProduct",
-      "price": 139,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
-      "category_id": "1",
-      "discount": 10,
-      "status": "New",
-      "rating": 3
-    },
-    {
       "id": "5",
-      "title": "LastProduct",
+      "title": "LastProductqqq",
       "price": 35,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
@@ -93,7 +56,7 @@
     {
       "id": "6",
       "title": "LastProduct",
-      "price": 35,
+      "price": "350",
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
       "discount": 0,
@@ -101,38 +64,85 @@
       "rating": 2
     },
     {
-      "id": "7",
-      "title": "NewProduct",
-      "price": 139,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
-      "category_id": "1",
-      "discount": 10,
-      "status": "New",
-      "rating": 3
+      "id": null,
+      "title": "11",
+      "price": "11",
+      "category_id": "11",
+      "discount": "11",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     },
     {
-      "id": "8",
-      "title": "NewProduct",
-      "price": 139,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
-      "category_id": "1",
-      "discount": 10,
-      "status": "New",
-      "rating": 3
+      "id": null,
+      "title": "11",
+      "price": "11",
+      "category_id": "11",
+      "discount": "11",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "333",
+      "price": "333",
+      "category_id": "33",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "55",
+      "price": "55",
+      "category_id": "59",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "66",
+      "price": "66",
+      "category_id": "66",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "77",
+      "price": "77",
+      "category_id": "77",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "salam",
+      "price": "3.0000",
+      "category_id": "77",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     }
   ],
   "categories": [
     {
-      "id": "1",
-      "title": "Blue Yeti USB Microphone Blackout Edition",
-      "price": 120,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
-      "category_id": "2",
-      "discount": 15,
-      "status": "",
-      "rating": 2
-    },
-    {
       "id": "2",
       "title": "Pryma Headphones, Rose Gold & Grey",
       "price": 180,
@@ -173,34 +183,37 @@
       "rating": 2
     },
     {
-      "id": "6",
-      "title": "Pryma Headphones, Rose Gold & Grey",
-      "price": 180,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
-      "category_id": "2",
-      "discount": 35,
-      "status": "New",
-      "rating": 5
+      "id": null,
+      "title": "eee",
+      "price": "33",
+      "category_id": "3333",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     },
     {
-      "id": "7",
-      "title": "NewProduct",
-      "price": 139,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
-      "category_id": "1",
-      "discount": 10,
-      "status": "New",
-      "rating": 3
+      "id": null,
+      "title": "salam111",
+      "price": "111",
+      "category_id": "11",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     },
     {
-      "id": "8",
-      "title": "NewProduct",
-      "price": 139,
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
-      "category_id": "1",
-      "discount": 10,
-      "status": "New",
-      "rating": 3
+      "id": null,
+      "title": "wqwqwqw",
+      "price": "3.0000",
+      "category_id": "1111",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     }
   ]
 }

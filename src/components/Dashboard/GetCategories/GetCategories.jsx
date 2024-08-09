@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import {
-  useGetAllProductsQuery,
-  useDeleteProductMutation,
-  useCreateProductMutation,
+  useGetAllCategoriesQuery,
+  useDeleteCategoryMutation,
+  useCreateCategoryMutation,
   usePartialUpdateProductMutation,
 } from "../../../redux/rtkQuery/productApi";
 
-function GetProduct() {
-  const { data: products, error, isLoading } = useGetAllProductsQuery();
-  const [deleteProduct] = useDeleteProductMutation();
-  const [createProduct] = useCreateProductMutation();
+function GetCategories() {
+  const { data: products, error, isLoading } = useGetAllCategoriesQuery();
+  const [deleteProduct] = useDeleteCategoryMutation();
+  const [createProduct] = useCreateCategoryMutation();
   const [updateProduct] = usePartialUpdateProductMutation();
 
   const [productForm, setProductForm] = useState({
@@ -238,4 +238,4 @@ function GetProduct() {
   );
 }
 
-export default GetProduct;
+export default GetCategories;

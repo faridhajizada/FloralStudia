@@ -5,12 +5,13 @@ import "./Sidebar.css";
 const sidebarData = [
   {
     id: 1,
-    name: "Get Product",
+    name: " Product",
+    path: "/admin/",
   },
   {
     id: 2,
-    name: "Add Product",
-    path: "/admin/add-product",
+    name: " Categories",
+    path: "/admin/categories",
   },
 ];
 
