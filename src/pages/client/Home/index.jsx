@@ -9,6 +9,7 @@ import PopularProducts from "./componenets/PopularProducts";
 
 import ShopMethod from "./componenets/ShopMethod/ShopMethod";
 import VideoArea from "./componenets/VideoArea/VideoArea";
+import OurTeam from "./componenets/OurTeam/OurTeam";
 
 const ClientHome = () => {
   return (
@@ -22,6 +23,7 @@ const ClientHome = () => {
       <WatchOfChoice />
       <PopularProducts />
       <ShopMethod />
+      <OurTeam />
     </>
   );
 };
