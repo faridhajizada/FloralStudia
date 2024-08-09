@@ -7,11 +7,14 @@ function WhereToFind() {
     <div className="where-to-find">
       <div className="container">
         <div className="row">
+          <div className='where'>
           <p className="text-center">Contacts</p>
           <h3 className="sectionTeam text-center">Where to Find</h3>
+          </div>
         </div>
         <div className="row">
-          <div className="col-md-4 bg-first p-4">
+        <div className='where'>
+          <div className="col-md-4 bg-first p-4 toronto">
             <p className="text-center pb-3">Toronto</p>
             <div className='pb-3'>
               <p>Say hello</p>
@@ -27,7 +30,7 @@ function WhereToFind() {
             </div>
           </div>
 
-          <div className="col-md-4 bg-second p-4">
+          <div className="col-md-4 bg-second p-4 paris">
             <p className="text-center pb-3">Paris</p>
             <div className='pb-3'>
               <p>Say hello</p>
@@ -43,7 +46,7 @@ function WhereToFind() {
             </div>
           </div>
 
-          <div className="col-md-4 bg-third p-4">
+          <div className="col-md-4 bg-third p-4 barcelona">
             <p className="text-center pb-3">Barcelona</p>
             <div className='pb-3'>
               <p>Say hello</p>
@@ -59,9 +62,10 @@ function WhereToFind() {
             </div>
           </div>
         </div>
+        </div>
         <div className="subscribe">
         <div className="row justify-content-center">
-          <div className="col-md-6 text-center">
+          <div className="col-md-6 text-center main-text">
             <h2>Subscribe to Us</h2>
             <p>
               Interactively utilize leveraged interfaces vis-a-vis state of the art human capital. Interactively parallel task focused content via low-risk high-yield internal or "organic" sources.

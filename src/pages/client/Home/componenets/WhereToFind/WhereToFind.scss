@@ -3,30 +3,26 @@
     max-width: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 .where-to-find {
-  .bg-first {
+  .toronto {
     background-color: #d8e3d5;
     width: 344px;
     height: 364px;
   }
 
-  .bg-second {
+  .paris {
     background-color: #fffbf6;
     width: 344px;
     height: 364px;
   }
 
-  .bg-third {
+  .barcelona {
     background-color: #fef1e6;
     width: 344px;
     height: 364px;
   }
 
-  .text-white {
-    color: white;
-  }
 
   .sectionTeam {
     text-align: center;
@@ -47,19 +43,20 @@
   }
 }
 
-  .row{
+  .where{
+    display: flex;
     gap: 40px;
     justify-content: center;
   }
 
 
   .subscribe {
-    
-    .text-center {
+    .main-text {
         margin-top: 100px;
       text-align: center;
       color: #10634e !important;
     }
+ 
   
     .subscribe-form {
       margin-top: 20px; 
@@ -91,3 +88,4 @@
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
   }
+
