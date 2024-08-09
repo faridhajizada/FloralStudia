@@ -73,42 +73,52 @@
     {
       "id": "4",
       "title": "NewProduct",
-      "price": "139",
+      "price": 139,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
       "category_id": "1",
-      "discount": "10",
+      "discount": 10,
       "status": "New",
-      "rating": "3"
+      "rating": 3
     },
     {
       "id": "5",
       "title": "LastProduct",
-      "price": "35",
+      "price": 35,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
-      "discount": "",
+      "discount": 0,
       "status": "",
-      "rating": "2"
+      "rating": 2
     },
     {
       "id": "6",
       "title": "LastProduct",
-      "price": "35",
+      "price": 35,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
-      "discount": "",
+      "discount": 0,
       "status": "",
-      "rating": "2"
+      "rating": 2
     },
     {
       "id": "7",
       "title": "NewProduct",
-      "price": "139",
+      "price": 139,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
       "category_id": "1",
-      "discount": "10",
+      "discount": 10,
       "status": "New",
-      "rating": "3"
+      "rating": 3
+    },
+    {
+      "id": "8",
+      "title": "NewProduct",
+      "price": 139,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "category_id": "1",
+      "discount": 10,
+      "status": "New",
+      "rating": 3
     }
   ],
   "categories": [
@@ -135,32 +145,32 @@
     {
       "id": "3",
       "title": "NewProduct",
-      "price": "139",
+      "price": 139,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
       "category_id": "1",
-      "discount": "10",
+      "discount": 10,
       "status": "New",
-      "rating": "3"
+      "rating": 3
     },
     {
       "id": "4",
       "title": "LastProduct",
-      "price": "35",
+      "price": 35,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
-      "discount": "",
+      "discount": 0,
       "status": "",
-      "rating": "2"
+      "rating": 2
     },
     {
       "id": "5",
       "title": "LastProduct",
-      "price": "35",
+      "price": 35,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
-      "discount": "",
+      "discount": 0,
       "status": "",
-      "rating": "2"
+      "rating": 2
     },
     {
       "id": "6",
@@ -175,12 +185,22 @@
     {
       "id": "7",
       "title": "NewProduct",
-      "price": "139",
+      "price": 139,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
       "category_id": "1",
-      "discount": "10",
+      "discount": 10,
       "status": "New",
-      "rating": "3"
+      "rating": 3
+    },
+    {
+      "id": "8",
+      "title": "NewProduct",
+      "price": 139,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "category_id": "1",
+      "discount": 10,
+      "status": "New",
+      "rating": 3
     }
   ]
 }
