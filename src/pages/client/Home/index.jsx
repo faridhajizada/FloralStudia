@@ -14,7 +14,7 @@ import OurClients from "./componenets/OurClients/OurClients";
 import WhereToFind from "./componenets/WhereToFind/WhereToFind";
 import FooterSection from "./componenets/FooterSection/FooterSection";
 import Servis from "./componenets/Servis/Servis";
-import Reklam from "./componenets/Reklam/Reklam";
+import Reklam from "./componenets/Sale/Sale";
 
 const ClientHome = () => {
   return (
