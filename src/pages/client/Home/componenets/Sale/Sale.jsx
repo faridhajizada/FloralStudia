@@ -1,5 +1,5 @@
 import React from 'react';
-import './Reklam.scss';
+import './Sale.scss';
 
 function Sale() {
   return (
