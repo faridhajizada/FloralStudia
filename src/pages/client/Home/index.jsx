@@ -11,6 +11,8 @@ import ShopMethod from "./componenets/ShopMethod/ShopMethod";
 import VideoArea from "./componenets/VideoArea/VideoArea";
 import OurTeam from "./componenets/OurTeam/OurTeam";
 import OurClients from "./componenets/OurClients/OurClients";
+import WhereToFind from "./componenets/WhereToFind/WhereToFind";
+import FooterSection from "./componenets/FooterSection/FooterSection";
 
 const ClientHome = () => {
   return (
@@ -26,6 +28,8 @@ const ClientHome = () => {
       <ShopMethod />
       <OurTeam />
       <OurClients />
+      <WhereToFind />
+      <FooterSection />
     </>
   );
 };
