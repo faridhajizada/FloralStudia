@@ -23,7 +23,7 @@ function VideoArea() {
         <div class="thumb-content-box">
           <div class="thumb-content">
             <h3>
-              Next Video <span>-></span>
+              Next Video <span>-</span>
             </h3>
           </div>
         </div>
