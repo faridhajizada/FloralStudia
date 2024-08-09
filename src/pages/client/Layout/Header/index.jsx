@@ -39,10 +39,7 @@ const Header = () => {
       <div className="HeaderContainer">
         <div className="HeaderLogo">
           <h1 className="FirstLogoSide">
-            <Link>TIME</Link>
-          </h1>
-          <h1 className="SecondLogoSide">
-            <Link>ZONE</Link>
+            <Link>Floral Studio</Link>
           </h1>
         </div>
         <div className="HeaderNavbarAndAuth">
@@ -52,45 +49,43 @@ const Header = () => {
                 <Link>Home</Link>
               </li>
               <li>
-                <Link>Shop</Link>
+                <Link>About Us</Link>
               </li>
               <li>
-                <Link>Promotion</Link>
+                <Link>Portfolio</Link>
               </li>
               <li>
-                <Link>Pages</Link>
+                <Link>Pricing</Link>
               </li>
               <li>
-                <Link>Blog</Link>
+                <Link>Contacts</Link>
               </li>
               <li>
-                <Link to={"/add"}>Add Product</Link>
+                <Link to="/admin">
+                  Admin
+                </Link>
               </li>
             </ul>
           </nav>
           <div className="HeaderAuth">
             <ul className="HeaderAuthAllLi">
-              <li>
+              {/* <li>
                 <Link>
                   <SearchIcon />
                 </Link>
-              </li>
-              <li>
-                <Link to="/admin">
-                  <PersonIcon />
-                </Link>
-              </li>
-              <li>
+              </li> */}
+             
+              {/* <li>
                 <Link className={basketItemsCount > 0 ? "basketLiCheckOut" : ""}>
                   <ShoppingCartIcon />
                 </Link>
                 {basketItemsCount > 0 && (
                   <span className="basketCount">{basketItemsCount}</span>
                 )}
-              </li>
-              <li className="BurgerMenu" onClick={handleBurgerMenuClick}>
+              </li> */}
+              {/* <li className="BurgerMenu" onClick={handleBurgerMenuClick}>
                 <MenuIcon />
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

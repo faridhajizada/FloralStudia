@@ -1,9 +1,10 @@
 .Header {
   width: 100%;
-  background: #ffffff;
+  background: rgba(16, 99, 78, 0.9);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
   position: fixed;
   z-index: 5;
+  
 
   .BurgerMenu {
     display: none;
@@ -11,13 +12,14 @@
 
   .HeaderContainer {
     width: 100%;
-    max-width: 1140px;
-    padding: 20px;
+    max-width: 1440px;
+    padding-bottom: 10px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
 
   .HeaderLogo {
@@ -25,14 +27,15 @@
     align-items: center;
 
     a {
-      font-size: 24px;
-      color: #1e1e27;
+      font-size: 22px;
+      color: white;
       font-weight: 700;
-      text-transform: uppercase;
+      font-family: 'Quicksand', sans-serif;
+      text-decoration: none;
     }
 
     .SecondLogoSide a {
-      color: #fe4c50;
+      color: white;
     }
   }
 
@@ -46,15 +49,22 @@
       .HeaderNavbarAllLi {
         display: flex;
         align-items: center;
-
+margin-top: 20px;
         a {
           display: block;
-          color: #1e1e27;
+          color: white;
           font-size: 13px;
           font-weight: 500;
           text-transform: uppercase;
-          padding: 20px;
+          padding: 0 20px;
           transition: color 0.3s ease;
+          text-decoration: none;
+        }
+        :hover a {
+ text-decoration: underline;
+ text-underline-offset: 6px;
+          color: #faba84 !important;;
+     
         }
       }
     }
