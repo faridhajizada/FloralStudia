@@ -1,18 +1,25 @@
-.mainSlider {
-  h1 {
-    font-size: 100px;
-    font-weight: 900;
-    font-family: "Josefin Sans", sans-serif;
+#Carousel {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  .carousel-img {
+    max-height: 80vh; /* Ekranın %80'i kadar yükseklik */
+    width: auto; /* Orantılı genişlik */
+    object-fit: cover; /* Resmin sığdırılması */
+  }
+
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    color: #1b876c;
   }
   p {
-    font-size: 22px;
-  }
-  .hero__btn {
-    a {
-      padding: 10px 20px;
-      background-color: black;
-      color: white;
-      font-size: 20px;
-    }
+    color: #1b745e;
+
+    font-size: 2.875rem;
   }
 }

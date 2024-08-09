@@ -1,58 +1,46 @@
+import "bootstrap/dist/css/bootstrap.css";
+import Carousel from "react-bootstrap/Carousel";
 import "./index.scss";
 
 const Slider = () => {
   return (
-    <div className="mainSlider">
-      <div className="container">
-        <div className="row justify-content-between align-items-center">
-          <div className="col-xl-8 col-lg-8 col-md-8 col-sm-8">
-            <div className="hero__caption">
-              <h1
-                data-animation="fadeInLeft"
-                data-delay=".4s"
-                data-duration="2000ms"
-                className=""
-              >
-                Select Your New Perfect Style
-              </h1>
-              <p
-                data-animation="fadeInLeft"
-                data-delay=".7s"
-                data-duration="2000ms"
-                className=""
-              >
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat is aute irure.
-              </p>
-
-              <div
-                className="hero__btn"
-                data-animation="fadeInLeft"
-                data-delay=".8s"
-                data-duration="2000ms"
-              >
-                <a href="industries.html" className="btn hero-btn">
-                  Shop Now
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-4 d-none d-sm-block">
-            <div
-              className="hero__img"
-              data-animation="bounceIn"
-              data-delay=".4s"
-            >
-              <img
-                src={
-                  "https://preview.colorlib.com/theme/timezone/assets/img/hero/watch.png.webp"
-                }
-                alt=""
-                class=" heartbeat"
-              />
-            </div>
-          </div>
-        </div>
+    <div id="Carousel">
+      <div className="container-fluid">
+        <Carousel className="vh-80">
+          <Carousel.Item interval={1500} className="vh-80">
+            <Carousel.Caption className="h-100  d-flex flex-column  justify-content-center align-items-center">
+              <h3>Fixed-Height Slider</h3>
+              <p>Excellent bouquets for you</p>
+            </Carousel.Caption>
+            <img
+              className="d-block img-fluid w-100 carousel-img"
+              src="https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg"
+              alt="Image One"
+            />
+          </Carousel.Item>
+          <Carousel.Item className="vh-80" interval={500}>
+            <Carousel.Caption className=" h-100 d-flex flex-column  justify-content-center align-items-center">
+              <h3>Fixed-Height Slider</h3>
+              <p>Excellent bouquets for you</p>
+            </Carousel.Caption>
+            <img
+              className="d-block img-fluid w-100 carousel-img"
+              src="https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl7.jpg"
+              alt="Image Two"
+            />
+          </Carousel.Item>
+          <Carousel.Item className="vh-80" interval={500}>
+            <Carousel.Caption className=" h-100 d-flex flex-column  justify-content-center align-items-center">
+              <h3>Fixed-Height Slider</h3>
+              <p>Excellent bouquets for you</p>
+            </Carousel.Caption>
+            <img
+              className="d-block img-fluid w-100 carousel-img"
+              src="https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl4.jpg"
+              alt="Image Three"
+            />
+          </Carousel.Item>
+        </Carousel>
       </div>
     </div>
   );
