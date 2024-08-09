@@ -23,6 +23,10 @@ export const productAPI = createApi({
             query: () => "products",
             providesTags: ["Products"]
         }),
+        getAllCategories: builder.query({
+            query: () => "categories",
+            providesTags: ["Products"]
+        }),
         getSingleProduct: builder.query({
             query: (id) => `${ENUMS.products}/${id}`
         }),
@@ -61,6 +65,7 @@ export const productAPI = createApi({
 
 export const {
     useGetAllProductsQuery,
+    useGetAllCategoriesQuery,
     useGetSingleProductQuery,
     useDeleteProductMutation,
     useCreateProductMutation,

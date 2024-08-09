@@ -7,7 +7,7 @@ const ClinetLayout = () => {
     <>
       <Header/>
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
