@@ -1,0 +1,26 @@
+.LocalFlorist {
+  margin: 200px 0;
+  .cardBox {
+    position: relative;
+    .img2 {
+      position: absolute;
+      top: 0;
+    }
+    .img1 {
+      position: absolute;
+      top: -50px;
+      left: 120px;
+    }
+  }
+}
+.LocalFlorist h5 {
+  font-size: 50px;
+  color: green;
+}
+.LocalFlorist p {
+  color: green;
+}
+
+// .LocalFlorist .mbr-text {
+//   color: green;
+// }
