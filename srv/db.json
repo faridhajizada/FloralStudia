@@ -41,7 +41,7 @@
   ],
   "products": [
     {
-      "id": "2",
+      "id": "1",
       "title": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
       "price": 610,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
@@ -51,7 +51,7 @@
       "rating": 4
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "Blue Yeti USB Microphone Blackout Edition",
       "price": 120,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
@@ -61,7 +61,7 @@
       "rating": 2
     },
     {
-      "id": "5",
+      "id": "3",
       "title": "Pryma Headphones, Rose Gold & Grey",
       "price": 180,
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
@@ -71,7 +71,7 @@
       "rating": 5
     },
     {
-      "id": "6",
+      "id": "4",
       "title": "NewProduct",
       "price": "139",
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
@@ -81,27 +81,27 @@
       "rating": "3"
     },
     {
+      "id": "5",
+      "title": "LastProduct",
+      "price": "35",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
+      "discount": "",
+      "status": "",
+      "rating": "2"
+    },
+    {
+      "id": "6",
+      "title": "LastProduct",
+      "price": "35",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
+      "discount": "",
+      "status": "",
+      "rating": "2"
+    },
+    {
       "id": "7",
-      "title": "LastProduct",
-      "price": "35",
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
-      "category_id": "3",
-      "discount": "",
-      "status": "",
-      "rating": "2"
-    },
-    {
-      "id": "8",
-      "title": "LastProduct",
-      "price": "35",
-      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
-      "category_id": "3",
-      "discount": "",
-      "status": "",
-      "rating": "2"
-    },
-    {
-      "id": "9",
       "title": "NewProduct",
       "price": "139",
       "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
@@ -114,18 +114,73 @@
   "categories": [
     {
       "id": "1",
-      "name": "men",
-      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+      "title": "Blue Yeti USB Microphone Blackout Edition",
+      "price": 120,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
+      "category_id": "2",
+      "discount": 15,
+      "status": "",
+      "rating": 2
     },
     {
       "id": "2",
-      "name": "women",
-      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "2",
+      "discount": 35,
+      "status": "New",
+      "rating": 5
     },
     {
       "id": "3",
-      "name": "accessories",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+      "title": "NewProduct",
+      "price": "139",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "category_id": "1",
+      "discount": "10",
+      "status": "New",
+      "rating": "3"
+    },
+    {
+      "id": "4",
+      "title": "LastProduct",
+      "price": "35",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
+      "discount": "",
+      "status": "",
+      "rating": "2"
+    },
+    {
+      "id": "5",
+      "title": "LastProduct",
+      "price": "35",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
+      "discount": "",
+      "status": "",
+      "rating": "2"
+    },
+    {
+      "id": "6",
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "2",
+      "discount": 35,
+      "status": "New",
+      "rating": 5
+    },
+    {
+      "id": "7",
+      "title": "NewProduct",
+      "price": "139",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "category_id": "1",
+      "discount": "10",
+      "status": "New",
+      "rating": "3"
     }
   ]
 }

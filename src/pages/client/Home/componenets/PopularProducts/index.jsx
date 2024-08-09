@@ -1,4 +1,4 @@
-import { useGetAllProductsQuery } from "../../../../../redux/rtkQuery/productApi";
+import { useGetAllProductsQuery,useGetAllCategoriesQuery } from "../../../../../redux/rtkQuery/productApi";
 import CustomCard from "../../../../../components/Card";
 
 import "./index.scss";
@@ -6,6 +6,8 @@ import { useState } from "react";
 
 const PopularProducts = () => {
   const { data: products } = useGetAllProductsQuery();
+  const { data: categories } = useGetAllCategoriesQuery();
+
   const [user, setUser] = useState(null);
 
   return (
@@ -52,21 +54,21 @@ const PopularProducts = () => {
         </h2>
       </div>
       <div className="customContainer  col-6">
-        {products
-          ?.map((product) => {
-            let showLeftTop = product.status === "New";
-            showLeftTop = Boolean(product.discount > 0);
+        {categories
+          ?.map((categories) => {
+            let showLeftTop = categories.status === "New";
+            showLeftTop = Boolean(categories.discount > 0);
             return (
               <CustomCard
-                key={product.id + 2}
+                key={categories.id + 2}
                 hoverable
                 style={{ width: 240 }}
-                cover={<img alt={product.title} src={product.image} />}
-                title={product.title}
-                price={product.price}
-                discount={product.discount}
+                cover={<img alt={categories.title} src={categories.image} />}
+                title={categories.title}
+                price={categories.price}
+                discount={categories.discount}
                 showLeftTop={showLeftTop}
-                productId={product.id}
+                productId={categories.id}
                 showBasket={true}
                 user={user}
                 setUser={setUser}
