@@ -1,0 +1,91 @@
+.where-to-find{
+    margin: 200px 0;
+    max-width: 100%;
+}
+
+
+.where-to-find {
+  .toronto {
+    background-color: #d8e3d5;
+    width: 344px;
+    height: 364px;
+  }
+
+  .paris {
+    background-color: #fffbf6;
+    width: 344px;
+    height: 364px;
+  }
+
+  .barcelona {
+    background-color: #fef1e6;
+    width: 344px;
+    height: 364px;
+  }
+
+
+  .sectionTeam {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+  a:hover {
+    text-decoration: underline; 
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+  .where{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+
+
+  .subscribe {
+    .main-text {
+        margin-top: 100px;
+      text-align: center;
+      color: #10634e !important;
+    }
+ 
+  
+    .subscribe-form {
+      margin-top: 20px; 
+      color: #10634e !important;
+  
+      .email-input {
+        
+        border: none;
+        border-bottom: 2px solid #10634e; 
+        border-radius: 0;
+        padding: 10px;
+        margin-right: -1px; 
+        flex: 1; 
+      }
+  
+      .send-button {
+        border: none;
+        background-color: #d8e3d5 !important;
+        border-color: #d8e3d5 !important;
+        color: #10634e !important;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 0;
+        transition: background-color 0.3s ease;
+      }
+    }
+  }
+  .subscribe h2{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+  }
+

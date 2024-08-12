@@ -44,71 +44,176 @@
   ],
   "products": [
     {
-      "id": "2",
-      "title": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
-      "price": 610,
-      "image": "https://preview.colorlib.com/theme/coloshop/images/product_2.png",
-      "category_id": "2",
+      "id": "5",
+      "title": "LastProductqqq",
+      "price": 35,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
       "discount": 0,
-      "status": "",
-      "rating": 4
-    },
-    {
-      "id": "3",
-      "title": "Blue Yeti USB Microphone Blackout Edition",
-      "price": 120,
-      "image": "https://preview.colorlib.com/theme/coloshop/images/product_3.png",
-      "category_id": "2",
-      "discount": 15,
       "status": "",
       "rating": 2
     },
     {
-      "id": "5",
+      "id": "6",
+      "title": "LastProduct",
+      "price": "350",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
+      "discount": 0,
+      "status": "",
+      "rating": 2
+    },
+    {
+      "id": null,
+      "title": "11",
+      "price": "11",
+      "category_id": "11",
+      "discount": "11",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "11",
+      "price": "11",
+      "category_id": "11",
+      "discount": "11",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "333",
+      "price": "333",
+      "category_id": "33",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "55",
+      "price": "55",
+      "category_id": "59",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "66",
+      "price": "66",
+      "category_id": "66",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "77",
+      "price": "77",
+      "category_id": "77",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    },
+    {
+      "id": null,
+      "title": "salam",
+      "price": "3.0000",
+      "category_id": "77",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
+    }
+  ],
+  "categories": [
+    {
+      "id": "2",
       "title": "Pryma Headphones, Rose Gold & Grey",
       "price": 180,
-      "image": "https://preview.colorlib.com/theme/coloshop/images/product_5.png",
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "2",
       "discount": 35,
       "status": "New",
       "rating": 5
     },
     {
-      "id": "6",
+      "id": "3",
       "title": "NewProduct",
-      "price": "139",
-      "image": "https://preview.colorlib.com/theme/coloshop/images/product_1.png",
+      "price": 139,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
       "category_id": "1",
-      "discount": "10",
+      "discount": 10,
       "status": "New",
-      "rating": "3"
+      "rating": 3
     },
     {
-      "id": "7",
+      "id": "4",
       "title": "LastProduct",
-      "price": "35",
-      "image": "https://preview.colorlib.com/theme/coloshop/images/product_1.png",
+      "price": 35,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
       "category_id": "3",
+      "discount": 0,
+      "status": "",
+      "rating": 2
+    },
+    {
+      "id": "5",
+      "title": "LastProduct",
+      "price": 35,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "category_id": "3",
+      "discount": 0,
+      "status": "",
+      "rating": 2
+    },
+    {
+      "id": null,
+      "title": "eee",
+      "price": "33",
+      "category_id": "3333",
       "discount": "",
       "status": "",
-      "rating": "2"
-    }
-  ],
-  "categories": [
-    {
-      "id": "1",
-      "name": "men",
-      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     },
     {
-      "id": "2",
-      "name": "women",
-      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+      "id": null,
+      "title": "salam111",
+      "price": "111",
+      "category_id": "11",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     },
     {
-      "id": "3",
-      "name": "accessories",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+      "id": null,
+      "title": "wqwqwqw",
+      "price": "3.0000",
+      "category_id": "1111",
+      "discount": "",
+      "status": "",
+      "rating": "",
+      "image": "",
+      "date_added": "2024-08-09"
     }
   ]
 }

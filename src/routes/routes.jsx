@@ -4,8 +4,7 @@ import ClientHome from "../pages/client/Home";
 import ProductInfo from "../pages/client/ProductInfo";
 import AdminLayout from "../pages/admin/dashboard";
 import GetProduct from "./../components/Dashboard/GetProduct/GetProduct";
-import AddProduct from "./../components/Dashboard/AddProduct/AddProduct";
-
+import GetCategories from "../components/Dashboard/GetCategories/GetCategories";
 export const routes = createBrowserRouter([
   {
     path: "/",
@@ -28,8 +27,8 @@ export const routes = createBrowserRouter([
     children: [
       { index: true, element: <GetProduct /> },
       {
-        path: "add-product",
-        element: <AddProduct />,
+        path: "categories",
+        element: <GetCategories />,
       },
     ],
   },
